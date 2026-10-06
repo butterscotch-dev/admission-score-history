@@ -1,0 +1,18 @@
+Faculty-history simulator v2 smoke test
+Date: 2026-10-06
+
+Changes tested:
+- Standard two-panel score input UI is visible.
+- Common-test subject inputs: 9 fields.
+- Secondary subject inputs: 6 base fields plus context-specific special fields.
+- Common-test bulk % and secondary bulk % update scores and recalculate results.
+- Secondary bulk % excludes interview / essay / other special fields.
+- Department cards are collapsed by default.
+- Clicking a department opens its year rows.
+- An opened department stays open while score inputs trigger recalculation.
+- Year-level allocation details still open/close.
+- Switching university/faculty/schedule resets department accordion state.
+- 79 university/faculty/schedule contexts traversed in Chromium smoke test.
+- Browser console/page errors: 0.
+- admissions-data.js unchanged from prior latest version.
+- university-config.js unchanged from prior latest version.
