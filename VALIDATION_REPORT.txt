@@ -1,0 +1,9 @@
+VALIDATION REPORT
+mode=admissions_simulator_history_repo_latest
+records=2584
+osaka_foreign_records=275
+has_osaka_foreign_separate_input=True
+has_secondary_bulk=True
+cache_build=20261008-split3
+admissions_data_sha256=f49633e20edceaa7de1d9906bf12afa59010b934992275ea46751a5c3bddbe8a
+node_syntax_check=PASS (index inline JS / admissions-data.js / university-config.js)

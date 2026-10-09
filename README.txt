@@ -1,15 +1,11 @@
-University admissions faculty-history simulator
+学科指定・年度横断型 GitHub Pages 用
 
-Files:
-- index.html
+この4ファイルを別リポジトリの直下に置いてください。
+- index.html  ← 旧 history.html を index.html に変更済み
 - admissions-data.js
 - university-config.js
+- README.txt（サイト動作には不要）
 
-GitHub Pages:
-Place all three files in the repository root and publish main / (root).
-
-2026-10-06 update:
-- Department results are collapsed by default; click a department to open its 2016-2026 rows.
-- Score input UI matches the standard simulator: common-test and secondary panels, bulk percentage input, subject-by-subject input, and raw-max settings.
-- Department open state is preserved while scores are recalculated.
-- Bulk secondary input excludes interview/essay/other special fields.
+今回の変更:
+- 二次一括入力（%）を明示的に全年度へ適用。入力時に通常二次科目の個別点をクリアし、個別入力で科目ごとに上書き可能。
+- 阪大外国語学部の二次英語を専用入力へ分離。他学部の英語得点と混同しない。
