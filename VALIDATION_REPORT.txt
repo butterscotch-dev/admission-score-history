@@ -1,9 +1,16 @@
 VALIDATION REPORT
-mode=admissions_simulator_history_repo_latest
+mode=admissions_simulator_history_repo_latest_sec_bulk_fixed
 records=2584
 osaka_foreign_records=275
 has_osaka_foreign_separate_input=True
 has_secondary_bulk=True
-cache_build=20261008-split3
+secondary_bulk_visible_point_fill=True
+secondary_bulk_same_rate_across_year_rawmax=True
+secondary_bulk_manual_subject_override=True
+secondary_bulk_max_change_follow=True
+special_other_interview_essay_excluded=True
+cache_query=20261009-history-sec-bulk-visible1
+admissions_data_build=20261008-split3
 admissions_data_sha256=f49633e20edceaa7de1d9906bf12afa59010b934992275ea46751a5c3bddbe8a
 node_syntax_check=PASS (index inline JS / admissions-data.js / university-config.js)
+secondary_bulk_behavior_test=PASS
